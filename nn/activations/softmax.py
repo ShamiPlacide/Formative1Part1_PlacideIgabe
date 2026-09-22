@@ -1,5 +1,6 @@
 """Softmax activation: converts logits into a probability distribution."""
 import numpy as np
+
 from nn.module import Module
 
 

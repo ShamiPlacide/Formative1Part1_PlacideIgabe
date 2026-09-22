@@ -1,5 +1,6 @@
 """Sigmoid activation: squashes real values into (0, 1)."""
 import numpy as np
+
 from nn.module import Module
 
 

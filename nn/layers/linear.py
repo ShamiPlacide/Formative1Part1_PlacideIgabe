@@ -1,5 +1,6 @@
 """Linear (fully connected) layer: z = xW + b."""
 import numpy as np
+
 from nn.module import Module
 
 
