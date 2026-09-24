@@ -1,0 +1,37 @@
+{
+  "stage": 1,
+  "title": "Linear: __init__ & forward",
+  "target": "nn/layers/linear.py",
+  "python": "3.11.14",
+  "numpy": "2.4.2",
+  "categories": {
+    "A_construction": {
+      "passed": 5,
+      "total": 5
+    },
+    "C_output": {
+      "passed": 2,
+      "total": 2
+    },
+    "D_value": {
+      "passed": 2,
+      "total": 2
+    },
+    "F_purity": {
+      "passed": 1,
+      "total": 1
+    }
+  },
+  "total": {
+    "passed": 10,
+    "total": 10
+  },
+  "lint": {
+    "tool": "ruff",
+    "ran": true,
+    "clean": true,
+    "output": "All checks passed!"
+  },
+  "verdict": "PASS",
+  "failures": []
+}

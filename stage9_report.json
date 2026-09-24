@@ -1,0 +1,37 @@
+{
+  "stage": 9,
+  "title": "SGD step & zero_grad",
+  "target": "nn/optim/sgd.py",
+  "python": "3.11.14",
+  "numpy": "2.4.2",
+  "categories": {
+    "A_step()": {
+      "passed": 2,
+      "total": 2
+    },
+    "B_step()": {
+      "passed": 1,
+      "total": 1
+    },
+    "C_zero_grad()": {
+      "passed": 1,
+      "total": 1
+    },
+    "E_signature": {
+      "passed": 1,
+      "total": 1
+    }
+  },
+  "total": {
+    "passed": 5,
+    "total": 5
+  },
+  "lint": {
+    "tool": "ruff",
+    "ran": true,
+    "clean": true,
+    "output": "All checks passed!"
+  },
+  "verdict": "PASS",
+  "failures": []
+}

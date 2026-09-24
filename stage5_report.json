@@ -1,0 +1,41 @@
+{
+  "stage": 5,
+  "title": "Sigmoid forward & backward",
+  "target": "nn/activations/sigmoid.py",
+  "python": "3.11.14",
+  "numpy": "2.4.2",
+  "categories": {
+    "A_forward": {
+      "passed": 2,
+      "total": 2
+    },
+    "B_backward": {
+      "passed": 1,
+      "total": 1
+    },
+    "C_gradient": {
+      "passed": 1,
+      "total": 1
+    },
+    "D_numerical": {
+      "passed": 1,
+      "total": 1
+    },
+    "E_purity": {
+      "passed": 1,
+      "total": 1
+    }
+  },
+  "total": {
+    "passed": 6,
+    "total": 6
+  },
+  "lint": {
+    "tool": "ruff",
+    "ran": true,
+    "clean": true,
+    "output": "All checks passed!"
+  },
+  "verdict": "PASS",
+  "failures": []
+}

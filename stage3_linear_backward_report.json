@@ -1,0 +1,41 @@
+{
+  "stage": 3,
+  "title": "Linear.backward & parameters",
+  "target": "nn/layers/linear.py",
+  "python": "3.11.14",
+  "numpy": "2.4.2",
+  "categories": {
+    "A_gradient": {
+      "passed": 1,
+      "total": 1
+    },
+    "B_value": {
+      "passed": 1,
+      "total": 1
+    },
+    "C_gradient": {
+      "passed": 1,
+      "total": 1
+    },
+    "E_parameters()": {
+      "passed": 1,
+      "total": 1
+    },
+    "F_purity": {
+      "passed": 1,
+      "total": 1
+    }
+  },
+  "total": {
+    "passed": 5,
+    "total": 5
+  },
+  "lint": {
+    "tool": "ruff",
+    "ran": true,
+    "clean": true,
+    "output": "All checks passed!"
+  },
+  "verdict": "PASS",
+  "failures": []
+}
